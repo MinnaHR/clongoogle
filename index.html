@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head >
+        <meta charset="UTF-8">
+        <!--Charset es un conjunto de carácteres como ñ o acentos-->
+        <title>Página de gatitos</title>
+        <!--Así se pone el nombre que aparece en la pestaña-->
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    </head> 
+        
+    <header>
+
+    </header>
+
+    <body>
+        <h1>Página de gatitos</h1>
+        <!--h1,h2,...Hacen referencia al tamaño del título "body"-->
+    
+        <h3>Imágenes de gatitos</h3>
+
+        <!--Para insertar imágenes desde internet se usa la etiqueta "img"(no necesita etiqueta de cierre)--> 
+        <img class="img1" src="https://robotto.mx/wp-content/uploads/2020/10/GettyImages-160959234-59ceef256f53ba00119ccd2a-scaled.jpg">
+        <!--"class" es para darle nombre a la imagen y así poder editar individualmente, sólo se puede usar 1 vez en un solo elemento-->
+        <!--"id" es un identificador sólo para un elemento en específico-->
+        <br>
+        
+        <!--Para imagen desde computadora-->
+        <img class="img2" src="imagenes/Gatitos ojos.webp">
+        
+
+        <!--Para crear enlaces externos-->
+        <p>Si quieres ver más imagenes de gatitos negros, <a href="https://www.google.com/search?q=mishis+negros&sxsrf=APwXEdf9uamAlg29IsO2kvNKD2097pONxA:1683254505533&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj9qPnWk93-AhVtLUQIHW73BhAQ_AUoAXoECAEQAw&biw=766&bih=559&dpr=1.5#imgrc=pCVGiV78B9-6jM"  target="_blank" >da click aquí.</a> </p>
+        <!--"a" es para agregar un hipervínculo-->
+        <!--"_Blank" es para que el link se abra una pestaña nueva-->
+
+        <h3>Listas de gatitos</h3>
+        <p>2 cosas que los gatitos <strong> aman</strong></p>
+        <!--"strong" es para poner las letras en negritas-->
+
+        <!--Listas ordenadas: Enlista cosas con número-->
+        <ol>
+            <!--"ol"es ordered list-->
+            <li>Cariños (aunque no en exceso)</li>
+            <li><strong>Dormir</strong></li>
+            </ol>
+                <!--"li": List item-->
+
+        <!--Lista desordenada. El orden de los elementos no importa-->
+        <p>2 cosas que los gatitos <i> odian</i></p>
+         <!--"i" es para poner las letras en cursivas-->
+         <ul>
+            <li>A otros gatos</li>
+            <li>Invadir su espacio</li>
+
+         </ul>
+            <!--"ul": Unordered list, sólo pone viñetas-->
+
+            <!--Formularios-->
+            <form>
+                <!--Formulario con botones de radio-->
+                <p>¿Tu gatito quiere estar contigo o prefiere estar solo?</p>
+                <label>
+                    <input id="Conmigo" type="radio" value="Conmigo" name="Conmigo-solo" checked> Conmigo
+                    <!--Input es para agregar información-->
+                    <!--"Checked es una respuesta por default que aparece ya seleccionada en la página"-->
+                </label>  
+                <br 
+                <!--br me permite poner un salto de línea y que las opciones no aparezcan seguiditas, si no una abajo de otra-->
+        
+                <label>
+                    <input id="Solo" type="radio" value="Solo" name="Conmigo-solo"> Solo
+                    <!--Input es para agregar información-->
+                </label>  
+
+            <form>
+                <!--Formulario con casillas de verificación "checks"-->  
+                <p>¿Qué tipo de personalidad tiene tu gato?</p>
+                <label>
+                    <input id="Juguetón" type="checkbox" value="Juguetón" name="Personalidad"> Juguetón
+                </label> 
+                <br 
+                <label>
+                    <input id="Dormilón" type="checkbox" value="Dormilón" name="Personalidad" checked> Dormilón
+                </label>
+                <br 
+                <label>
+                    <input id="Cariñoso" type="checkbox" value="Cariñoso" name="Personalidad"> Cariñoso
+                </label>  
+            </form>
+
+
+    </body>
+   
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de Tecnolochicas PRO</small></p>
+    </footer>
+</html>
+ <!--Así se ponen los comentarios/notas-->

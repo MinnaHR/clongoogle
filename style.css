@@ -1,0 +1,40 @@
+/*Así se ponen los comentarios*/
+body{
+    background-color: #96fff6;
+    color: #05d8f1;
+    font-family: 'Lora', serif;
+    /*La fuente se toma de Google fonts, sólo hay 1ue seguir las intrucciones que vienen ahí en el cuadro superior derecho*/
+}
+h3{
+    color:#0e2e63;
+    font-size: 23px;
+}
+h1, p{
+color: #155b96;
+}
+
+img {
+    /*width: 280px;*/
+    /*Para la altura es "height" peor puede estirar mucho la imagen*/
+    border-style: groove;
+    /* Para el marco hay muchos elementos como "solid", "dotte", "double", "ridge", "groove", "dashed"*/
+    border-color:black;
+    margin-bottom: 20px;
+    /*"margin" es para separar la imagen entre sí mismas o del borde del lado izquierdo, derecho, etcétera, especificar*/
+    padding: 10px;
+    /*"padding" permite crear un espacio entre el borde y la imagen, pj: Cosas que se acomodan en rejilla como instagram"*/
+}
+/*Para ser más específicos e ir imagen por imagen es lo siguiente )anteriormente ya se le dió nombre a la imagen en el HTML*/
+.img1{ 
+    width: 280px;
+    height: 230px;
+    margin-left: 500px;
+}
+.img2{ 
+    width: 450px;
+    height: 180px;
+    margin-left: 410px;
+}
+a,small{
+    color: blue;
+}
